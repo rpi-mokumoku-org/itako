@@ -1,7 +1,8 @@
 // Database Connect
 var mysql = require('mysql');
+// TODO: 接続情報は共通化する
 var connection = mysql.createConnection({
-  host     : 'medamaoyaji',
+  host     : '13.231.242.115',
   user     : 'itako',
   password : 'itako',
   database : 'medamaoyaji_db'

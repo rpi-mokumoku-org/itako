@@ -1,8 +1,9 @@
 var mysql = require('mysql');
 var moment = require('moment');
 
+// TODO: 共通化する
 var db_config = {
-  host     : 'medamaoyaji',
+  host     : '13.231.242.115',
   user     : 'itako',
   password : 'itako',
   database : 'medamaoyaji_db'
